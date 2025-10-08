@@ -322,7 +322,7 @@ def cli() -> None:
     )
     p.add_argument("excel", help="Fichier .xlsx à traiter")
     p.add_argument("--sheet", default="all", help="Nom de l'onglet ou 'all' pour traiter tout le classeur")
-    p.add_argument("--output-dir", default="outputs_october", help="Dossier de sortie")
+    p.add_argument("--output-dir", default="outputs", help="Dossier de sortie")
     p.add_argument("--margin-scale", type=float, default=0.9, help="Échelle des marges (0-1)")
     p.add_argument("--target-size", default="1520x1900", help="Tailles cibles LxH, ex : 1520x1900 ou 800x800. 'none' pour désactiver.")
     args = p.parse_args()

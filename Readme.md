@@ -58,7 +58,7 @@ python batch_cadrage_excel.py catalogue.xlsx --target-size none
 | Option | Défaut | Description |
 |--------|--------|-------------|
 | `--sheet` | `all` | Nom de l'onglet à traiter ou `all` pour tous les onglets |
-| `--output-dir` | `outputs_october` | Dossier de destination des images traitées |
+| `--output-dir` | `outputs` | Dossier de destination des images traitées |
 | `--margin-scale` | `0.9` | Échelle des marges (0.0 - 1.0) |
 | `--target-size` | `1520x1900` | Dimensions finales (LxH) ou `none` |
 
@@ -91,7 +91,7 @@ Le fichier Excel doit contenir les colonnes suivantes :
 ## 📁 Structure de sortie
 
 ```
-outputs_october/
+outputs/
 ├── Onglet1/
 │   ├── image1.jpg
 │   ├── image2.jpg
