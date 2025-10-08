@@ -20,10 +20,6 @@ Un outil Python haute performance pour recadrer et redimensionner automatiquemen
 pip install numpy pandas pillow requests openpyxl psutil tqdm
 ```
 
-**Configuration recommandée :**
-- Python 3.9+
-- RAM : 8 GB minimum, 16 GB+ recommandé
-- Multi-core CPU pour profiter du multiprocessing
 
 ## 🚀 Utilisation
 
