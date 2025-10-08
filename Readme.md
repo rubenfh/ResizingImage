@@ -1,4 +1,4 @@
-# batch_cadrage_excel.py
+# Resizing.py
 
 Un outil Python pour recadrer et redimensionner automatiquement des images de produits à partir de fichiers Excel Shopify, avec détection intelligente des objets et standardisation des marges.
 
@@ -23,34 +23,34 @@ pip install numpy pandas pillow requests openpyxl
 ### Syntaxe de base
 
 ```bash
-python batch_cadrage_excel.py fichier.xlsx [OPTIONS]
+python Resizing.py fichier.xlsx [OPTIONS]
 ```
 
 ### Exemples
 
 **Traiter tous les onglets d'un classeur :**
 ```bash
-python batch_cadrage_excel.py catalogue.xlsx
+python Resizing.py catalogue.xlsx
 ```
 
 **Traiter un onglet spécifique :**
 ```bash
-python batch_cadrage_excel.py catalogue.xlsx --sheet "Produits 2024"
+python Resizing.py catalogue.xlsx --sheet "Produits 2024"
 ```
 
 **Personnaliser la taille de sortie :**
 ```bash
-python batch_cadrage_excel.py catalogue.xlsx --target-size 800x1000
+python Resizing.py catalogue.xlsx --target-size 800x1000
 ```
 
 **Ajuster les marges :**
 ```bash
-python batch_cadrage_excel.py catalogue.xlsx --margin-scale 0.8
+python Resizing.py catalogue.xlsx --margin-scale 0.8
 ```
 
 **Désactiver le redimensionnement :**
 ```bash
-python batch_cadrage_excel.py catalogue.xlsx --target-size none
+python Resizing.py catalogue.xlsx --target-size none
 ```
 
 ## ⚙️ Options
