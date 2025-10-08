@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""batch_cadrage_excel.py – v1.8 (multiprocessing optimisé)
+"""Resizing.py – v1.8 (multiprocessing optimisé)
 
 Nouveautés v1.8 :
 - Multiprocessing intelligent avec configuration adaptative
