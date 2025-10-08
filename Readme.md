@@ -30,27 +30,27 @@ python Resizing.py fichier.xlsx [OPTIONS]
 
 **Traiter tous les onglets d'un classeur :**
 ```bash
-python Resizing.py catalogue.xlsx
+python Resizing.py Resizing_example.xlsx
 ```
 
 **Traiter un onglet spécifique :**
 ```bash
-python Resizing.py catalogue.xlsx --sheet "Produits 2024"
+python Resizing.py Resizing_example.xlsx --sheet "Produits 2024"
 ```
 
 **Personnaliser la taille de sortie :**
 ```bash
-python Resizing.py catalogue.xlsx --target-size 800x1000
+python Resizing.py Resizing_example.xlsx --target-size 800x1000
 ```
 
 **Ajuster les marges :**
 ```bash
-python Resizing.py catalogue.xlsx --margin-scale 0.8
+python Resizing.py Resizing_example.xlsx --margin-scale 0.8
 ```
 
 **Désactiver le redimensionnement :**
 ```bash
-python Resizing.py catalogue.xlsx --target-size none
+python Resizing.py Resizing_example.xlsx --target-size none
 ```
 
 ## ⚙️ Options
