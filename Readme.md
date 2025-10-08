@@ -17,7 +17,7 @@ Un outil Python haute performance pour recadrer et redimensionner automatiquemen
 ## 📋 Prérequis
 
 ```bash
-pip install numpy pandas pillow requests openpyxl psutil tqdm
+pip install numpy pandas pillow requests openpyxl psutil tqdm opencv-python
 ```
 
 
