@@ -35,7 +35,7 @@ python Resizing.py Resizing_example.xlsx
 
 **Traiter un onglet spécifique :**
 ```bash
-python Resizing.py Resizing_example.xlsx --sheet "Produits 2024"
+python Resizing.py Resizing_example.xlsx --sheet "Model 1"
 ```
 
 **Personnaliser la taille de sortie :**
