@@ -10,7 +10,7 @@ Un outil Python haute performance pour recadrer et redimensionner automatiquemen
 - **Téléchargements parallèles** : Télécharge jusqu'à 20 images simultanément
 - **Multi-onglets** : Parcourt automatiquement tous les onglets d'un classeur Excel
 - **Redimensionnement intelligent** : Redimensionne proportionnellement et centre les images
-- **Homogénéisation du fond** : Unifie la couleur de fond pour un rendu professionnel
+- **Homogénéisation du fond** : Unifie la couleur de fond
 - **Monitoring en temps réel** : Barres de progression et statistiques de performance
 - **Téléchargement automatique** : Récupère les images directement depuis les URLs
 
